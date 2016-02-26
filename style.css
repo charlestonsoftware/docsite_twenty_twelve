@@ -18,9 +18,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /**
  * Header
  */
-.site-header {
+header#masthead {
   position: relative; }
-  .site-header .header-widget {
+  header#masthead .header-widget {
     position: absolute;
     top: 0;
     right: 0; }
