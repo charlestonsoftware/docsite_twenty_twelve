@@ -42,6 +42,7 @@
                 <div class="header-widget">
                     <?php dynamic_sidebar( 'sidebar-4' ); ?>
                 </div>
+                <?php endif; ?>
             </div>
 		</hgroup>
 
