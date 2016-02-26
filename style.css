@@ -23,7 +23,8 @@ header#masthead {
   header#masthead .header-widget {
     position: absolute;
     top: 0;
-    right: 0; }
+    right: 0;
+    padding-top: 1.8rem; }
 
 /**
  * Main Content
