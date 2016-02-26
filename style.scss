@@ -16,10 +16,24 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 @import url("../twentytwelve/style.css");
 
-header#masthead {
-  position: relative;
+/**
+ * Header
+ */
+.site-header {
+  position:relative;
+
+  .header-widget {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
+
+
+/**
+ * Main Content
+ */
 .entry-content {
     h2 {
         margin-left: 1em;
