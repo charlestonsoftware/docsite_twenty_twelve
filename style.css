@@ -18,7 +18,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * Header
  */
 header#masthead {
-  position: relative; }
+  position: relative;
+  background-clip: content-box;
+  background-repeat: repeat-x; }
+  header#masthead .main-navigation .nav-menu {
+    background-color: rgba(255, 240, 194, 0.7); }
+    header#masthead .main-navigation .nav-menu li {
+      padding-left: 1em; }
+      header#masthead .main-navigation .nav-menu li a {
+        color: #6666ff; }
   header#masthead .header-widget {
     position: absolute;
     top: 0;

@@ -23,6 +23,23 @@ $indent_no_results: 3em;
  */
 header#masthead {
   position:relative;
+  background-clip: content-box;
+  background-repeat: repeat-x;
+
+  .main-navigation {
+    .nav-menu {
+      background-color: rgba(255,240,194,0.7);
+
+      li {
+        padding-left: 1em;
+
+        a {
+          color: #6666ff;
+        }
+      }
+    }
+
+  }
 
   .header-widget {
     position: absolute;
