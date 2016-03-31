@@ -38,9 +38,9 @@
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
             <div class="site-header-div">
-                <?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?>
+                <?php if ( is_active_sidebar( 'header-1' ) ) : ?>
                 <div class="header-widget">
-                    <?php dynamic_sidebar( 'sidebar-4' ); ?>
+                    <?php dynamic_sidebar( 'header-1' ); ?>
                 </div>
                 <?php endif; ?>
             </div>
