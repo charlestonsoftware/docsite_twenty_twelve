@@ -1,10 +1,10 @@
 /*
 Theme Name: Twenty Twelve Docsite
 Description: A Twenty Twelve child theme with some tweaks for a documentation-centric site.
-Author: charlestonsw
+Author: Store Locator Plus
 Author URI: https://www.storelocatorplus.com/
 Template: twentytwelve
-Version: 1.0.00
+Version: 4.4.01
 Text Domain:  	twentytwelve-docsite
 License:      	GNU General Public License v2 or later
 License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,6 @@ Tags:         	light, gray, white, one-column, two-columns, right-sidebar, fluid
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
-
 */
 @import url("../twentytwelve/style.css");
 /**
@@ -27,6 +26,21 @@ header#masthead {
     padding-top: 1.8rem; }
 
 /**
+ * No Posts Widget
+ */
+.no-posts-widget .widget_categories ul {
+  margin-left: 3em; }
+
+/**
+ * No Results Article Area
+ */
+article.no-results {
+  border-bottom: none;
+  margin-bottom: 1em; }
+  article.no-results #searchform {
+    margin-left: 3em; }
+
+/**
  * Main Content
  */
 .entry-content h2 {
@@ -35,7 +49,7 @@ header#masthead {
   margin-left: 2em; }
 .entry-content h4, .entry-content h5, .entry-content h6 {
   margin-left: 3em; }
-.entry-content p, .entry-content pre {
+.entry-content p {
   margin-left: 3em; }
 
 /*# sourceMappingURL=style.css.map */
