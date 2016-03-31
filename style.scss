@@ -38,6 +38,10 @@ header#masthead {
 .no-posts-widget {
   .widget_categories ul {
     margin-left: $indent_no_results;
+
+    li {
+      line-height: 1.75em;
+    }
   }
 }
 

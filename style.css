@@ -30,6 +30,8 @@ header#masthead {
  */
 .no-posts-widget .widget_categories ul {
   margin-left: 3em; }
+  .no-posts-widget .widget_categories ul li {
+    line-height: 1.75em; }
 
 /**
  * No Results Article Area
