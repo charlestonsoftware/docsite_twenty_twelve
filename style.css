@@ -54,4 +54,11 @@ article.no-results {
 .entry-content p {
   margin-left: 3em; }
 
+/**
+ * Article List
+ **/
+.site-content article {
+  border-bottom: 6px double #888;
+  padding-bottom: 3rem; }
+
 /*# sourceMappingURL=style.css.map */
