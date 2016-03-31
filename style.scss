@@ -16,6 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @import url("../twentytwelve/style.css");
 
+$indent_no_results: 3em;
 
 /**
  * Header
@@ -28,6 +29,27 @@ header#masthead {
     top: 0;
     right: 0;
     padding-top: 1.8rem;
+  }
+}
+
+/**
+ * No Posts Widget
+ */
+.no-posts-widget {
+  .widget_categories ul {
+    margin-left: $indent_no_results;
+  }
+}
+
+/**
+ * No Results Article Area
+ */
+article.no-results {
+  border-bottom: none;
+  margin-bottom: 1em;
+
+  #searchform {
+    margin-left: $indent_no_results;
   }
 }
 

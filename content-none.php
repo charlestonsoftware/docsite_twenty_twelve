@@ -18,3 +18,12 @@
 			<?php get_search_form(); ?>
 		</div><!-- .entry-content -->
 	</article><!-- #post-0 -->
+
+    <div class="no-posts-widget-area">
+        <?php if ( is_active_sidebar( 'none-1' ) ) : ?>
+            <div class="no-posts-widget">
+                <?php dynamic_sidebar( 'none-1' ); ?>
+            </div>
+        <?php endif; ?>
+    </div>
+

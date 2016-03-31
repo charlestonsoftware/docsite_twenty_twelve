@@ -26,6 +26,21 @@ header#masthead {
     padding-top: 1.8rem; }
 
 /**
+ * No Posts Widget
+ */
+.no-posts-widget .widget_categories ul {
+  margin-left: 3em; }
+
+/**
+ * No Results Article Area
+ */
+article.no-results {
+  border-bottom: none;
+  margin-bottom: 1em; }
+  article.no-results #searchform {
+    margin-left: 3em; }
+
+/**
  * Main Content
  */
 .entry-content h2 {
