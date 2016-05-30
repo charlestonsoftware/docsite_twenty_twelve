@@ -42,13 +42,19 @@ header#masthead {
     line-height: 1.75em; }
 
 /**
- * No Results Article Area
- */
-article.no-results {
-  border-bottom: none;
-  margin-bottom: 1em; }
-  article.no-results #searchform {
-    margin-left: 3em; }
+ * Site Content
+ **/
+.wrapper .site-content article {
+  padding: 1em;
+  border: solid 1px lightgray;
+  -webkit-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75); }
+  .wrapper .site-content article.no-results {
+    border-bottom: none;
+    margin-bottom: 1em; }
+    .wrapper .site-content article.no-results #searchform {
+      margin-left: 3em; }
 
 /**
  * Main Content
