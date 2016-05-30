@@ -44,17 +44,17 @@ header#masthead {
 /**
  * Site Content
  **/
-.wrapper .site-content article {
+.wrapper .site-content article.list {
   padding: 1em;
   border: solid 1px lightgray;
   -webkit-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75); }
-  .wrapper .site-content article.no-results {
-    border-bottom: none;
-    margin-bottom: 1em; }
-    .wrapper .site-content article.no-results #searchform {
-      margin-left: 3em; }
+.wrapper .site-content article.no-results {
+  border-bottom: none;
+  margin-bottom: 1em; }
+  .wrapper .site-content article.no-results #searchform {
+    margin-left: 3em; }
 
 /**
  * Main Content
