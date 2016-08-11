@@ -111,6 +111,12 @@ header#masthead {
     p {
         margin-left: 3em;
     }
+
+    IMG {
+        &.product_link {
+            box-shadow: none;
+        }
+    }
 }
 
 /**

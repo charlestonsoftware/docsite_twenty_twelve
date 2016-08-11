@@ -67,6 +67,8 @@ header#masthead {
   margin-left: 3em; }
 .entry-content p {
   margin-left: 3em; }
+.entry-content IMG.product_link {
+  box-shadow: none; }
 
 /**
  * Article List
