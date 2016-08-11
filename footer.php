@@ -13,9 +13,9 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<?php do_action( 'twentytwelve_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'https://www.storelocatorplus.com/', 'twentytwelve-docsite' ) ); ?>"
-               title="<?php printf( __( 'A %s Derivative Work.', 'twentytwelve-docsite' ), 'Store Locator Plus' ); ?>"
-               ><?php printf( __( 'A %s Derivative Work.', 'twentytwelve-docsite' ), 'Store Locator Plus' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://www.cybersprocket.com/', 'twentytwelve-docsite' ) ); ?>"
+               title="<?php printf( __( 'A %s Derivative Work.', 'twentytwelve-docsite' ), 'Cyber Sprocket Labs' ); ?>"
+               ><?php printf( __( 'A %s Derivative Work.', 'twentytwelve-docsite' ), 'Cyber Sprocket Labs' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
