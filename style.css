@@ -21,12 +21,16 @@ header#masthead {
   position: relative;
   background-clip: content-box;
   background-repeat: repeat-x; }
-  header#masthead .main-navigation .nav-menu {
-    background-color: rgba(255, 240, 194, 0.7); }
-    header#masthead .main-navigation .nav-menu li {
-      padding-left: 1em; }
-      header#masthead .main-navigation .nav-menu li a {
-        color: #6666ff; }
+  header#masthead .main-navigation {
+    margin-left: -3em;
+    margin-right: -3em; }
+    header#masthead .main-navigation .nav-menu {
+      background-color: rgba(255, 240, 194, 0.7);
+      padding-left: 2em; }
+      header#masthead .main-navigation .nav-menu li {
+        padding-left: 1em; }
+        header#masthead .main-navigation .nav-menu li a {
+          color: #6666ff; }
   header#masthead .header-widget {
     position: absolute;
     top: 0;
