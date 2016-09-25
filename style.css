@@ -108,7 +108,8 @@ header#masthead {
   background-color: #F4F4F4;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0px 4px rgba(0, 0, 0, 0.2); }
 .site-content article {
-  border-bottom: 6px double #888;
-  padding-bottom: 3rem; }
+  border: none;
+  border-bottom: none;
+  padding-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

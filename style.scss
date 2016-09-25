@@ -195,7 +195,8 @@ header#masthead {
   }
 
   article {
-    border-bottom: 6px double #888;
-    padding-bottom: 3rem;
+    border: none;
+    border-bottom: none;
+    padding-bottom: 0;
   }
 }
