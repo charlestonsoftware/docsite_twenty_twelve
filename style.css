@@ -72,8 +72,15 @@ header#masthead {
   box-shadow: none; }
 #content .entry-content div.sharedaddy.sd-sharing-enabled {
   padding-top: 4em; }
+#content .entry-content div.sharedaddy .sd-content {
+  margin-left: 2em; }
 #content .entry-content div.sharedaddy h3.sd-title::before {
   border: none; }
+#content .entry-content div.jp-relatedposts {
+  padding-top: 4em;
+  margin-left: 2em; }
+  #content .entry-content div.jp-relatedposts h3.jp-relatedposts-headline em::before {
+    border: none; }
 
 /**
  * Article List

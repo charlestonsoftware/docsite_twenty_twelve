@@ -127,6 +127,10 @@ header#masthead {
                     padding-top: 4em;
                 }
 
+                .sd-content {
+                    margin-left: 2em;
+                }
+
                 h3 {
                     &.sd-title {
                         &::before {
@@ -135,7 +139,23 @@ header#masthead {
                     }
                 }
             }
+
+            &.jp-relatedposts {
+                padding-top: 4em;
+                margin-left: 2em;
+
+                h3 {
+                    &.jp-relatedposts-headline {
+                        em {
+                            &::before {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
         }
+
     }
 }
 
