@@ -89,7 +89,7 @@ header#masthead {
     align-items: stretch; }
   #content div.post_meta .post_meta_box {
     flex: 1 1 auto;
-    padding: 2em; }
+    padding: 1em; }
 
 /**
  * Sidebar
