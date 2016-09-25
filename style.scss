@@ -100,34 +100,36 @@ header#masthead {
 /**
  * Main Content
  */
-.entry-content {
-    h2 {
-        margin-left: 1em;
-    }
-    h3 {
-        margin-left: 2em;
-    }
-    h4,h5,h6 {
-        margin-left: 3em;
-    }
-    p {
-        margin-left: 3em;
-    }
-
-    IMG {
-        &.product_link {
-            box-shadow: none;
+#content {
+    .entry-content {
+        h2 {
+            margin-left: 1em;
         }
-    }
+        h3 {
+            margin-left: 2em;
+        }
+        h4, h5, h6 {
+            margin-left: 3em;
+        }
+        p {
+            margin-left: 3em;
+        }
 
-    div {
-        &.sharedaddy {
-            &.sd-sharing-enabled {
-                padding-top: 4em;
+        IMG {
+            &.product_link {
+                box-shadow: none;
             }
+        }
 
-            .sd-block {
-                border-top: solid 1px $content_border_color;
+        div {
+            &.sharedaddy {
+                &.sd-sharing-enabled {
+                    padding-top: 4em;
+                }
+
+                .sd-block {
+                    border-top: solid 1px $content_border_color;
+                }
             }
         }
     }
