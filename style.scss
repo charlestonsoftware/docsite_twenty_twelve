@@ -127,9 +127,11 @@ header#masthead {
                     padding-top: 4em;
                 }
 
-                .sd-title {
-                    ::before {
-                        border: none;
+                h3 {
+                    &.sd-title {
+                        &::before {
+                            border: none;
+                        }
                     }
                 }
             }
