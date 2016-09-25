@@ -2,8 +2,8 @@
 Contributors: charlestonsw
 Tags: light, gray, white, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
 Requires at least: 3.5
-Tested up to: 4.5
-Stable tag: 4.5
+Tested up to: 4.6.1
+Stable tag: 4.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,12 @@ A child theme for WordPress Twenty Twelve with some documentation site updates.
 2c. Click Activate to use your new theme right away.
 
 == Change Log ==
+
+= 4.6.1 =
+
+More footer tweaks.
+
+Add some stying for JetPack related posts and sharebuddy output.
 
 = 4.5 =
 

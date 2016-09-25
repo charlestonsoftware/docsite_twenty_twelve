@@ -4,7 +4,7 @@ Description: A Twenty Twelve child theme with tweaks for a documentation-centric
 Author: Store Locator Plus
 Author URI: https://www.storelocatorplus.com/
 Template: twentytwelve
-Version: 4.4.02
+Version: 4.6.1
 Text Domain:  	twentytwelve-docsite
 License:      	GNU General Public License v2 or later
 License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
@@ -141,7 +141,7 @@ header#masthead {
             }
 
             &.jp-relatedposts {
-                padding-top: 4em;
+                padding: 4em 0;
                 margin-left: 2em;
 
                 h3 {
@@ -155,8 +155,23 @@ header#masthead {
                 }
             }
         }
-
     }
+
+    div.post_meta {
+        margin-top: 4em;
+
+        .post_meta_boxes {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+        }
+
+        .post_meta_box {
+            flex: 1 1 auto;
+            padding: 2em;
+        }
+    }
+
 }
 
 /**

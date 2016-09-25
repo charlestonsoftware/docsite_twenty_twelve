@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twelve_Docsite
- * @since Twenty Twelve Docsite 4.4.01
+ * @since Twenty Twelve Docsite 4.6.1
  */
 
 get_header(); ?>
