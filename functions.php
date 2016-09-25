@@ -1,5 +1,8 @@
 <?php
 
+// Stop the WP default "slide up" that shows the footer on the search page.
+remove_action( 'wp_print_footer_scripts', '_wp_footer_scripts'                 );
+
 /**
  * Enqueue our custom docsite styles.
  */
