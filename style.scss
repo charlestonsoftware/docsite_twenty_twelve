@@ -127,8 +127,10 @@ header#masthead {
                     padding-top: 4em;
                 }
 
-                .sd-block {
-                    border-top: solid 1px $content_border_color;
+                .sd-title {
+                    &&::before {
+                        border: none;
+                    }
                 }
             }
         }
