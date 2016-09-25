@@ -83,6 +83,13 @@ header#masthead {
     border: none; }
 
 /**
+ * Sidebar
+ */
+#secondary {
+  background-color: #F4F4F4;
+  padding: 1em; }
+
+/**
  * Article List
  **/
 .site-content .archive-header {
