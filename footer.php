@@ -15,8 +15,8 @@
 			<?php do_action( 'twentytwelve_credits' ); ?>
 			<a  target="cyber_sprocket"
 				href="<?php echo esc_url( __( 'http://www.cybersprocket.com/', 'twentytwelve-docsite' ) ); ?>"
-               title="<?php printf( __( 'A %s Derivative Work', 'twentytwelve-docsite' ), 'Cyber Sprocket Labs' ); ?>"
-               ><?php printf( __( 'A %s Derivative Work', 'twentytwelve-docsite' ), 'Cyber Sprocket Labs' ); ?></a>
+               title="<?php printf( __( 'A %s Creation', 'twentytwelve-docsite' ), 'Cyber Sprocket Labs' ); ?>"
+               ><?php printf( __( 'A %s Creation', 'twentytwelve-docsite' ), 'Cyber Sprocket Labs' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
