@@ -32,7 +32,9 @@ header#masthead {
     position: absolute;
     top: 0;
     right: 0;
-    padding-top: 1.8rem; }
+    height: 5em;
+    padding-top: 1.8rem;
+    overflow: hidden; }
 
 /**
  * No Posts Widget

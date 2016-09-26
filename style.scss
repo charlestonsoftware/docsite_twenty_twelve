@@ -13,7 +13,10 @@ Tags:         	light, gray, white, one-column, two-columns, right-sidebar, fluid
 
 @import url("../twentytwelve/style.css");
 
+$header_height: 5em;
+
 $indent_no_results: 3em;
+
 $content_border_color: #F4F4F4;
 
 /**
@@ -44,10 +47,15 @@ header#masthead {
   }
 
   .header-widget {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding-top: 1.8rem;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      height: $header_height;
+
+      padding-top: 1.8rem;
+
+      overflow: hidden;
   }
 }
 
