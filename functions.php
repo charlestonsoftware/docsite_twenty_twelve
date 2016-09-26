@@ -68,7 +68,6 @@ if ( ! function_exists( 'twentytwelve_docsite_entry_meta' ) ) :
 
 		?>
 		<div class="post_meta">
-			<h3><?php echo __('About This Article' , 'twentytwelve-docsite');?></h3>
 	        <div class="post_meta_boxes">
 	            <div class="post_meta_box categories">
 	                <h4><?php echo __('Related Categories' , 'twentytwelve-docsite' ); ?></h4>
