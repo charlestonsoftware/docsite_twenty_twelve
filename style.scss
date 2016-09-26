@@ -106,6 +106,17 @@ header#masthead {
 }
 
 /**
+ * Only for archive content
+ */
+body.archive {
+    .entry-content {
+        p {
+            margin-left: 3em;
+        }
+    }
+}
+
+/**
  * Main Content
  */
 #content {
@@ -117,9 +128,6 @@ header#masthead {
             margin-left: 2em;
         }
         h4, h5, h6 {
-            margin-left: 3em;
-        }
-        p {
             margin-left: 3em;
         }
 
