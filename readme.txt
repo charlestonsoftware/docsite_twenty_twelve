@@ -25,6 +25,8 @@ A child theme for WordPress Twenty Twelve with some documentation site updates.
 
 = 4.6.1 =
 
+Add a full-width-noheader template to get more real-estate on some pages.
+
 More footer tweaks.
 
 Add some stying for JetPack related posts and sharebuddy output.

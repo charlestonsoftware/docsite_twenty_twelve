@@ -28,8 +28,7 @@ header#masthead {
   background-repeat: repeat-x;
 
   .main-navigation {
-    margin-left: -3em;
-    margin-right: -3em;
+    margin: 0.25rem -3rem;
 
     .nav-menu {
       background-color: rgba(255,240,194,0.7);
@@ -60,6 +59,23 @@ header#masthead {
 }
 
 /**
+ * Primary With Noheader Template
+ */
+body.full-width {
+    &.noheader {
+        .site {
+            margin-top: 1rem;
+        }
+        .site-header {
+            padding: 0.5rem 0;
+        }
+        .site-content {
+            margin: 0;
+        }
+    }
+}
+
+/**
  * No Posts Widget
  */
 .no-posts-widget {
@@ -71,7 +87,6 @@ header#masthead {
     }
   }
 }
-
 
 /**
  * Site Content

@@ -86,3 +86,74 @@ if ( ! function_exists( 'twentytwelve_docsite_entry_meta' ) ) :
 		<?php
 	}
 endif;
+
+/**
+ * Extend the default WordPress body classes.
+ *
+ * Extends the default WordPress body class to denote:
+ * 1. Using a full-width layout, when no active widgets in the sidebar
+ *    or full-width template.
+ * 2. Front Page template: thumbnail in use and number of sidebars for
+ *    widget areas.
+ * 3. White or empty background color to change the layout and spacing.
+ * 4. Custom fonts enabled.
+ * 5. Single or multiple authors.
+ *
+ * @since Twenty Twelve Docsite 4.6.1
+ *
+ * @param array $classes Existing class values.
+ * @return array Filtered class values.
+ */
+function twentytwelve_docsite_body_class( $classes ) {
+	$background_color = get_background_color();
+	$background_image = get_background_image();
+
+	if ( ! is_active_sidebar( 'sidebar-1' ) || is_page_template( 'page-templates/full-width.php' ) || is_page_template( 'page-templates/full-width-noheader.php' ) )
+		$classes[] = 'full-width';
+
+	if ( is_page_template( 'page-templates/full-width-noheader.php' ) )
+		$classes[] = 'noheader';
+
+	if ( is_page_template( 'page-templates/front-page.php' ) ) {
+		$classes[] = 'template-front-page';
+		if ( has_post_thumbnail() )
+			$classes[] = 'has-post-thumbnail';
+		if ( is_active_sidebar( 'sidebar-2' ) && is_active_sidebar( 'sidebar-3' ) )
+			$classes[] = 'two-sidebars';
+	}
+
+	if ( empty( $background_image ) ) {
+		if ( empty( $background_color ) )
+			$classes[] = 'custom-background-empty';
+		elseif ( in_array( $background_color, array( 'fff', 'ffffff' ) ) )
+			$classes[] = 'custom-background-white';
+	}
+
+	// Enable custom font class only if the font CSS is queued to load.
+	if ( wp_style_is( 'twentytwelve-fonts', 'queue' ) )
+		$classes[] = 'custom-font-enabled';
+
+	if ( ! is_multi_author() )
+		$classes[] = 'single-author';
+
+	return $classes;
+}
+remove_filter( 'body_class', 'twentytwelve_body_class' );
+add_filter( 'body_class', 'twentytwelve_docsite_body_class' );
+
+/**
+ * Adjust content width in certain contexts.
+ *
+ * Adjusts content_width value for full-width and single image attachment
+ * templates, and when there are no active widgets in the sidebar.
+ *
+ * @since Twenty Twelve 1.0
+ */
+function twentytwelve_docsite_content_width() {
+	if ( is_page_template( 'page-templates/full-width.php' ) || is_page_template( 'page-templates/full-width-noheader.php' ) ||is_attachment() || ! is_active_sidebar( 'sidebar-1' ) ) {
+		global $content_width;
+		$content_width = 960;
+	}
+}
+remove_action('template_redirect', 'twentytwelve_content_width' );
+add_action( 'template_redirect', 'twentytwelve_docsite_content_width' );

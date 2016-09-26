@@ -19,8 +19,7 @@ header#masthead {
   background-clip: content-box;
   background-repeat: repeat-x; }
   header#masthead .main-navigation {
-    margin-left: -3em;
-    margin-right: -3em; }
+    margin: 0.25rem -3rem; }
     header#masthead .main-navigation .nav-menu {
       background-color: rgba(255, 240, 194, 0.7);
       padding-left: 2em; }
@@ -35,6 +34,16 @@ header#masthead {
     height: 5em;
     padding-top: 1.8rem;
     overflow: hidden; }
+
+/**
+ * Primary With Noheader Template
+ */
+body.full-width.noheader .site {
+  margin-top: 1rem; }
+body.full-width.noheader .site-header {
+  padding: 0.5rem 0; }
+body.full-width.noheader .site-content {
+  margin: 0; }
 
 /**
  * No Posts Widget
