@@ -55,6 +55,20 @@ header#masthead {
       padding-top: 1.8rem;
 
       overflow: hidden;
+
+      // Ninja Demo
+      .nd-start-demo-form {
+          display: flex;
+
+          .nd-answer-field {
+              padding-right: 1em;
+              font-size: 22px;
+
+              input {
+                  font-size: 22px;
+              }
+          }
+      }
   }
 }
 

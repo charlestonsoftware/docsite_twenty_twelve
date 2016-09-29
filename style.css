@@ -34,6 +34,13 @@ header#masthead {
     height: 5em;
     padding-top: 1.8rem;
     overflow: hidden; }
+    header#masthead .header-widget .nd-start-demo-form {
+      display: flex; }
+      header#masthead .header-widget .nd-start-demo-form .nd-answer-field {
+        padding-right: 1em;
+        font-size: 22px; }
+        header#masthead .header-widget .nd-start-demo-form .nd-answer-field input {
+          font-size: 22px; }
 
 /**
  * Primary With Noheader Template
