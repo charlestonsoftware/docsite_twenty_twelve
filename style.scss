@@ -10,7 +10,6 @@ License:      	GNU General Public License v2 or later
 License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
 Tags:         	light, gray, white, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, cyber sprocket
 */
-
 @import url("../twentytwelve/style.css");
 
 $header_height: 5em;
@@ -23,53 +22,64 @@ $content_border_color: #F4F4F4;
  * Header
  */
 header#masthead {
-  position:relative;
-  background-clip: content-box;
-  background-repeat: repeat-x;
+    position: relative;
+    background-clip: content-box;
+    background-repeat: repeat-x;
 
-  .main-navigation {
-    margin: 0.25rem -3rem;
-
-    .nav-menu {
-      background-color: rgba(255,240,194,0.7);
-      padding-left: 2em;
-
-      li {
-        padding-left: 1em;
-
-        a {
-          color: #6666ff;
-        }
-      }
+    img {
+        box-shadow: none;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
     }
 
-  }
+    .header_image {
+        max-width: 33%;
+    }
 
-  .header-widget {
-      position: absolute;
-      top: 0;
-      right: 0;
+    .main-navigation {
+        margin: 0.25rem -3rem;
 
-      height: $header_height;
+        .nav-menu {
+            background-color: rgba(255, 240, 194, 0.7);
+            padding-left: 2em;
 
-      padding-top: 1.8rem;
+            li {
+                padding-left: 1em;
 
-      overflow: hidden;
+                a {
+                    color: #6666ff;
+                }
+            }
+        }
 
-      // Ninja Demo
-      .nd-start-demo-form {
-          display: flex;
+    }
 
-          .nd-answer-field {
-              padding-right: 1em;
-              font-size: 22px;
+    .header-widget {
+        position: absolute;
+        top: 0;
+        right: 0;
 
-              input {
-                  font-size: 22px;
-              }
-          }
-      }
-  }
+        height: $header_height;
+
+        padding-top: 1.8rem;
+
+        overflow: hidden;
+
+        // Ninja Demo
+        .nd-start-demo-form {
+            display: flex;
+
+            .nd-answer-field {
+                padding-right: 1em;
+                font-size: 22px;
+
+                input {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
 }
 
 /**
@@ -93,13 +103,13 @@ body.full-width {
  * No Posts Widget
  */
 .no-posts-widget {
-  .widget_categories ul {
-    margin-left: $indent_no_results;
+    .widget_categories ul {
+        margin-left: $indent_no_results;
 
-    li {
-      line-height: 1.75em;
+        li {
+            line-height: 1.75em;
+        }
     }
-  }
 }
 
 /**
@@ -110,7 +120,6 @@ body.full-width {
 
         // Search Results
         article {
-
 
             // Article List Formatting
             &.list {
@@ -231,17 +240,17 @@ body.archive {
  * Article List
  **/
 .site-content {
-  .archive-header {
-      margin-bottom: 48px;
-      padding: 1em;
-      border: solid 1px #F4F4F4;
-      background-color: #F4F4F4;
-      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0px 4px rgba(0, 0, 0, 0.2);
-  }
+    .archive-header {
+        margin-bottom: 48px;
+        padding: 1em;
+        border: solid 1px #F4F4F4;
+        background-color: #F4F4F4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0px 4px rgba(0, 0, 0, 0.2);
+    }
 
-  article {
-    border: none;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
+    article {
+        border: none;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
 }
