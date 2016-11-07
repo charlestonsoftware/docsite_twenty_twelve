@@ -81,6 +81,13 @@ body.full-width.noheader .site-content {
   margin-bottom: 1em; }
   .wrapper .site-content article.no-results #searchform {
     margin-left: 3em; }
+.wrapper .site-content .side-by-side {
+  display: flex; }
+  .wrapper .site-content .side-by-side .box {
+    padding: 1em; }
+    .wrapper .site-content .side-by-side .box .header {
+      display: block;
+      font-size: 1.5em; }
 
 /**
  * Only for archive content
