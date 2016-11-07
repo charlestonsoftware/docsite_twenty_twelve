@@ -81,17 +81,6 @@ body.page-template-full-width-side-by-side-noheader .site-content, body.page-tem
   margin-bottom: 1em; }
   .wrapper .site-content article.no-results #searchform {
     margin-left: 3em; }
-.wrapper .site-content .side-by-side {
-  display: flex;
-  justify-content: center; }
-  .wrapper .site-content .side-by-side .box {
-    padding: 1em; }
-    .wrapper .site-content .side-by-side .box .header {
-      display: block;
-      font-size: 1.5em;
-      text-align: center; }
-    .wrapper .site-content .side-by-side .box h2 {
-      margin-left: 0; }
 
 /**
  * Only for archive content
@@ -130,6 +119,18 @@ body.archive .entry-content p {
   #content div.post_meta .post_meta_box {
     flex: 1 1 auto;
     padding: 1em; }
+#content .side-by-side {
+  display: flex;
+  justify-content: center; }
+  #content .side-by-side .box {
+    padding: 1em;
+    flex: 1 1; }
+    #content .side-by-side .box .header {
+      display: block;
+      font-size: 1.5em;
+      text-align: center; }
+    #content .side-by-side .box h2 {
+      margin-left: 0; }
 
 /**
  * Sidebar

@@ -148,26 +148,6 @@ body {
             }
         }
 
-        // Side By Side Flex Boxes
-        .side-by-side {
-            display: flex;
-            justify-content: center;
-
-            .box {
-                padding: 1em;
-
-                .header {
-                    display: block;
-                    font-size: 1.5em;
-                    text-align: center;
-                }
-
-                h2 {
-                    margin-left: 0;
-                }
-            }
-        }
-
     }
 }
 
@@ -251,6 +231,27 @@ body.archive {
         .post_meta_box {
             flex: 1 1 auto;
             padding: 1em;
+        }
+    }
+
+    // Side By Side Flex Boxes
+    .side-by-side {
+        display: flex;
+        justify-content: center;
+
+        .box {
+            padding: 1em;
+            flex: 1 1;
+
+            .header {
+                display: block;
+                font-size: 1.5em;
+                text-align: center;
+            }
+
+            h2 {
+                margin-left: 0;
+            }
         }
     }
 
