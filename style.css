@@ -82,7 +82,8 @@ body.full-width.noheader .site-content {
   .wrapper .site-content article.no-results #searchform {
     margin-left: 3em; }
 .wrapper .site-content .side-by-side {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
   .wrapper .site-content .side-by-side .box {
     padding: 1em; }
     .wrapper .site-content .side-by-side .box .header {
