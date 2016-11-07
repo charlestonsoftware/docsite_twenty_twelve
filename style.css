@@ -50,13 +50,13 @@ header#masthead {
           font-size: 22px; }
 
 /**
- * Primary With Noheader Template
+ * Template Specific Tweaks
  */
-body.full-width.noheader .site {
+body.page-template-full-width-side-by-side-noheader .site, body.page-template-full-width-noheader .site {
   margin-top: 1rem; }
-body.full-width.noheader .site-header {
+body.page-template-full-width-side-by-side-noheader .site-header, body.page-template-full-width-noheader .site-header {
   padding: 0.5rem 0; }
-body.full-width.noheader .site-content {
+body.page-template-full-width-side-by-side-noheader .site-content, body.page-template-full-width-noheader .site-content {
   margin: 0; }
 
 /**

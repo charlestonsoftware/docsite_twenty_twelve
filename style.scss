@@ -82,19 +82,26 @@ header#masthead {
     }
 }
 
+
 /**
- * Primary With Noheader Template
+ * Template Specific Tweaks
  */
-body.full-width {
-    &.noheader {
-        .site {
-            margin-top: 1rem;
-        }
-        .site-header {
-            padding: 0.5rem 0;
-        }
-        .site-content {
-            margin: 0;
+body {
+    &.page-template-{
+
+        // Full Width No Header
+        // Full Width Side By Side No Header
+        &full-width-side-by-side-noheader,
+        &full-width-noheader {
+            .site {
+                margin-top: 1rem;
+            }
+            .site-header {
+                padding: 0.5rem 0;
+            }
+            .site-content {
+                margin: 0;
+            }
         }
     }
 }
