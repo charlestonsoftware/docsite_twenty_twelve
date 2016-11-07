@@ -57,7 +57,8 @@ body.page-template-full-width-side-by-side-noheader .site, body.page-template-fu
 body.page-template-full-width-side-by-side-noheader .site-header, body.page-template-full-width-noheader .site-header {
   padding: 0.5rem 0; }
 body.page-template-full-width-side-by-side-noheader .site-content, body.page-template-full-width-noheader .site-content {
-  margin: 0; }
+  margin: 0;
+  width: 100%; }
 
 /**
  * No Posts Widget
