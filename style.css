@@ -88,7 +88,8 @@ body.full-width.noheader .site-content {
     padding: 1em; }
     .wrapper .site-content .side-by-side .box .header {
       display: block;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      text-align: center; }
 
 /**
  * Only for archive content
