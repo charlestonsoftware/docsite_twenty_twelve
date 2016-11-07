@@ -245,14 +245,13 @@ body.archive {
     .side-by-side {
         display: flex;
         justify-content: center;
-        &:hover {
-            background-color: black;
-            opacity: 0.1;
-        }
 
         .box {
             padding: 1em;
             flex: 1 1;
+            &:hover {
+                background-color: #F4F4F4;
+            }
 
             .header {
                 display: block;

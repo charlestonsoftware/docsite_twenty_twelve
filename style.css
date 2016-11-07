@@ -125,12 +125,11 @@ body.archive .entry-content p {
 #content .side-by-side {
   display: flex;
   justify-content: center; }
-  #content .side-by-side:hover {
-    background-color: black;
-    opacity: 0.1; }
   #content .side-by-side .box {
     padding: 1em;
     flex: 1 1; }
+    #content .side-by-side .box:hover {
+      background-color: #F4F4F4; }
     #content .side-by-side .box .header {
       display: block;
       font-size: 1.5em;
