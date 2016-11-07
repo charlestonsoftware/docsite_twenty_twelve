@@ -59,6 +59,8 @@ body.page-template-full-width-side-by-side-noheader .site-header, body.page-temp
 body.page-template-full-width-side-by-side-noheader .site-content, body.page-template-full-width-noheader .site-content {
   margin: 0;
   width: 100%; }
+body.home .entry-title {
+  display: none; }
 
 /**
  * No Posts Widget
