@@ -79,7 +79,7 @@ if ( ! function_exists( 'twentytwelve_docsite_entry_meta' ) ) :
 		            <?php echo $tag_list; ?>
 	            </div>
 	            <div class="post_meta_box details">
-	                <h4><?php echo __('Details' , 'twentytwelve-docsite' ); ?></h4>
+	                <h4 class="meta_details"><?php echo __('Details' , 'twentytwelve-docsite' ); ?></h4>
 		            <?php echo $date; ?>
 	            </div>
 	        </div>
