@@ -300,6 +300,18 @@ body.archive {
 #secondary {
     background-color: #F4F4F4;
     padding: 1em;
+
+    ul {
+        &.tlw-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            li {
+              flex: 1 1 50%;
+            }
+        }
+    }
 }
 
 /**

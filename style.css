@@ -158,6 +158,12 @@ body.archive .entry-content p {
 #secondary {
   background-color: #F4F4F4;
   padding: 1em; }
+  #secondary ul.tlw-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    #secondary ul.tlw-list li {
+      flex: 1 1 50; }
 
 /**
  * Article List
