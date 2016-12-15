@@ -241,15 +241,17 @@ body.archive {
 
             H4 {
                 &.meta_category {
-                    font-family: 'dashicons';
                     &::before {
+                        font-family: 'dashicons';
                         content: "\f318";
+                        padding-right: 0.5em;
                     }
                 }
                 &.meta_tag {
-                    font-family: 'dashicons';
                     &::before {
+                        font-family: 'dashicons';
                         content: "\f323";
+                        padding-right: 0.5em;
                     }
                 }
             }
