@@ -122,6 +122,14 @@ body.archive .entry-content p {
   #content div.post_meta .post_meta_box {
     flex: 1 1 auto;
     padding: 1em; }
+    #content div.post_meta .post_meta_box H4.meta_category::before {
+      font-family: 'dashicons';
+      content: "\f318";
+      padding-right: 0.5em; }
+    #content div.post_meta .post_meta_box H4.meta_tag::before {
+      font-family: 'dashicons';
+      content: "\f323";
+      padding-right: 0.5em; }
 #content .side-by-side {
   display: flex;
   justify-content: center; }
