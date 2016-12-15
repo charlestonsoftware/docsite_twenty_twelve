@@ -71,13 +71,11 @@ if ( ! function_exists( 'twentytwelve_docsite_entry_meta' ) ) :
 		<div class="post_meta">
 	        <div class="post_meta_boxes">
 	            <div class="post_meta_box categories">
-                    <span class="dashicons dashicons-category"></span>
-	                <h4><?php echo __('Related Categories' , 'twentytwelve-docsite' ); ?></h4>
+	                <h4 class="meta_category"><?php echo __('Related Categories' , 'twentytwelve-docsite' ); ?></h4>
 		            <?php echo $categories_list; ?>
 	            </div>
 	            <div class="post_meta_box tags">
-                    <span class="dashicons dashicons-tag"></span>
-	                <h4><?php echo __('Related Tags' , 'twentytwelve-docsite' ); ?></h4>
+	                <h4 class="meta_tag"><?php echo __('Related Tags' , 'twentytwelve-docsite' ); ?></h4>
 		            <?php echo $tag_list; ?>
 	            </div>
 	            <div class="post_meta_box details">

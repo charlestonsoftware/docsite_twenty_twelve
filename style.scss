@@ -238,6 +238,21 @@ body.archive {
         .post_meta_box {
             flex: 1 1 auto;
             padding: 1em;
+
+            H4 {
+                &.meta_category {
+                    font-family: 'dashicons';
+                    &:before {
+                        content: "\f318";
+                    }
+                }
+                &.meta_tag {
+                    font-family: 'dashicons';
+                    &:before {
+                        content: "\f323";
+                    }
+                }
+            }
         }
     }
 
