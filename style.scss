@@ -185,7 +185,7 @@ body.archive {
         }
 
         IMG {
-            &.product_link {
+            &.product_link, &.no_shadow, &.no_box {
                 box-shadow: none;
             }
         }

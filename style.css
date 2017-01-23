@@ -100,7 +100,7 @@ body.archive .entry-content p {
   margin-left: 2em; }
 #content .entry-content h4, #content .entry-content h5, #content .entry-content h6 {
   margin-left: 3em; }
-#content .entry-content IMG.product_link {
+#content .entry-content IMG.product_link, #content .entry-content IMG.no_shadow, #content .entry-content IMG.no_box {
   box-shadow: none; }
 #content .entry-content div.sharedaddy.sd-sharing-enabled {
   padding-top: 4em; }
