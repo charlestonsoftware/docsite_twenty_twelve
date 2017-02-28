@@ -57,7 +57,7 @@ header#masthead {
 
     .site-header-div {
         position: absolute;
-        top: 0;
+        top: 1.714285714rem;
         right: 0;
 
         h2 {
@@ -69,8 +69,6 @@ header#masthead {
 
     .header-widget {
         height: $header_height;
-
-        padding-top: 1.8rem;
 
         overflow: hidden;
 
