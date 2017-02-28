@@ -3,10 +3,6 @@
  * The Header template for our theme
  *
  * Displays all of the <head> section and everything up till <div id="main">
- *
- * @package WordPress
- * @subpackage Twenty_Twelve_Docsite
- * @since Twenty Twelve 1.1
  */
 ?><!DOCTYPE html>
 <!--[if IE 7]>
@@ -42,8 +38,8 @@
 			<?php } else { ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php } ?>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
             <div class="site-header-div">
+                <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
                 <?php if ( is_active_sidebar( 'header-1' ) ) : ?>
                 <div class="header-widget">
                     <?php dynamic_sidebar( 'header-1' ); ?>

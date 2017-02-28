@@ -55,11 +55,19 @@ header#masthead {
 
     }
 
-    .header-widget {
+    .site-header-div {
         position: absolute;
         top: 0;
         right: 0;
 
+        h2 {
+            text-align: right;
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+    }
+
+    .header-widget {
         height: $header_height;
 
         padding-top: 1.8rem;

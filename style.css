@@ -34,10 +34,15 @@ header#masthead {
         padding-left: 1em; }
         header#masthead .main-navigation .nav-menu li a {
           color: #6666ff; }
-  header#masthead .header-widget {
+  header#masthead .site-header-div {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0; }
+    header#masthead .site-header-div h2 {
+      text-align: right;
+      font-size: 1.3em;
+      font-weight: 600; }
+  header#masthead .header-widget {
     height: 5em;
     padding-top: 1.8rem;
     overflow: hidden; }
